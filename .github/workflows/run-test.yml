@@ -9,8 +9,8 @@ jobs:
     - uses: actions/checkout@v2
     - name: Run a one-line script
       run: ls -al
-    - name: Git status
-      run: git status
+#    - name: Git status
+#      run: git status
     - name: Run a multi-line script
       run: |
         echo HOME: $HOME
